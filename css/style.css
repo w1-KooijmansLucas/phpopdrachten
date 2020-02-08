@@ -1,0 +1,39 @@
+/*
+ * User: Lucas Kooijmans
+ * Date: 8-2-2020
+ * Time: 14:58
+ * File: index.php
+*/
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    background-color: lightcyan;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+h2
+{
+    margin: 0;
+}
+
+aside
+{
+    background-color: lightyellow;
+    width: 500px;
+    height: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#wrapper
+{
+    margin-top: -600px;
+    margin-left: 540px;
+}
