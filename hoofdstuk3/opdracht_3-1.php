@@ -82,6 +82,7 @@
     </ul>
 </aside>
 <main id="wrapper">
+    <h2>Uitwerkingen</h2>
     <?php
         // String
         $evenement = "Elfstedentocht";
