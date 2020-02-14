@@ -88,7 +88,7 @@
         $evenement = "Elfstedentocht";
         // String
         $fries = "Alvestêdetocht";
-        // Number
+        // Integer
         $km = 200;
         // String
         $tocht = "schaatstocht";
@@ -100,11 +100,11 @@
         $hoofdstad = "Leeuwarden";
         // String
         $provincie = "Friesland";
-        // Number
+        // Integer
         $verreden = 15;
-        // Number
+        // Integer
         $eerst = 1909;
-        // Number
+        // Integer
         $maximaal = 1;
 
         $verhaal = "De " . $evenement . " (Fries: " . $fries . ") " . "is een " . $km . " kilometer
