@@ -15,7 +15,8 @@ header
     background-color: lightcyan;
     margin: 0;
     padding: 10px;
-    text-align: right;
+    font-family: Arial;
+    text-align: center;
 }
 
 h2
@@ -27,13 +28,13 @@ aside
 {
     background-color: lightyellow;
     width: 500px;
-    height: 600px;
+    height: 760px;
     padding-top: 20px;
     padding-left: 20px;
 }
 
 #wrapper
 {
-    margin-top: -600px;
+    margin-top: -760px;
     margin-left: 540px;
 }
