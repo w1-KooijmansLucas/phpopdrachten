@@ -107,13 +107,16 @@
         // Integer
         $maximaal = 1;
 
-        $verhaal = "De " . $evenement . " (Fries: " . $fries . ") " . "is een " . $km . " kilometer
+        $verhaal = "De $evenement (Fries: $fries) is een $km kilometer lange $tocht over $baan die wordt georganiseerd door de $organisatie. $hoofdstad, de hoofdstad van $provincie, is start- en aankomstplaats. De $evenement is inmiddels $verreden maal verreden en werd voor het eerst in $eerst gereden en wordt maximaal $maximaal keer per winter gehouden.";
+
+        $verhaal2 = "De " . $evenement . " (Fries: " . $fries . ") " . "is een " . $km . " kilometer
         lange " . $tocht . " over " . $baan . " die wordt georganiseerd door
         de " . $organisatie . ". " . $hoofdstad . ", " . " de hoofdstad van " . $provincie . ", " . "is start- en aankomstplaats. " . "De " . "$evenement" . " is inmiddels " . $verreden . " maal verreden en werd voor het
         eerst in " . $eerst . " gereden en wordt maximaal " . $maximaal . " keer per winter
         gehouden.";
         // Versturen naar browser met <p>
         echo '<p>' . $verhaal . '</p>';
+        echo '<p>' . $verhaal2 . '</p>';
     ?>
 </main>
 </body>
