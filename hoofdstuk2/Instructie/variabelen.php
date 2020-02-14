@@ -25,11 +25,14 @@
              * commentaar
              */
 
-            //Integer (number)
+            //Integer
             $age = 24;
 
             //Float
             $price = 20000.99;
+
+            //Array
+            $subjects = array("Internet", "computer", "software");
 
             echo '<p class="red">' . $car . ' heeft een prijs van ' . $price . '</p>';
         ?>
