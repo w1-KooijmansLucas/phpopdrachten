@@ -5,6 +5,13 @@
  * File: index.php
 */
 
+::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
 body
 {
     margin: 0;
@@ -13,9 +20,10 @@ body
 header
 {
     background-color: lightcyan;
+    border: 1px solid black;
     margin: 0;
     padding: 10px;
-    font-family: Arial;
+    font-family: Roboto;
     text-align: center;
 }
 
@@ -26,15 +34,33 @@ h2
 
 aside
 {
-    background-color: lightyellow;
+    font-family: Roboto;
+    background: linear-gradient(lightcyan, lightblue, lightskyblue);
+    border: 1px solid black;
+    border-top: 0;
     width: 500px;
     height: 760px;
     padding-top: 20px;
     padding-left: 20px;
 }
 
+a
+{
+    color: blue;
+}
+
+a:hover
+{
+    color: black;
+}
+
 #wrapper
 {
     margin-top: -760px;
     margin-left: 540px;
+}
+
+aside+main>h2
+{
+    font-family: Roboto;
 }
