@@ -9,12 +9,12 @@
 
     <!-- Include header -->
 <?php
-include "../includes/header.php";
+include "includes/header.php";
 ?>
 
     <!-- Include menu -->
 <?php
-include "../includes/menu.php";
+include "includes/menu.php";
 ?>
 
     <!-- Uitwerking -->
@@ -23,5 +23,5 @@ include "../includes/menu.php";
 
     <!-- Include footer -->
 <?php
-include "../includes/footer.php";
+include "includes/footer.php";
 ?>
