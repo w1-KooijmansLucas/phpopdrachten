@@ -64,3 +64,12 @@ aside+main>h2
 {
     font-family: Roboto;
 }
+
+footer
+{
+    font-family: Roboto;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 540px;
+}
