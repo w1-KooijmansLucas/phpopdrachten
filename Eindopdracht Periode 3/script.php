@@ -30,9 +30,9 @@ if(isset($_POST['submit']))
             $found = true;
             // Laat contact pagina zien
             $showLoginScreen = false;
+            // Stopt de foreach loop.
+            break;
         }
-        // Stopt de foreach loop.
-        break;
     }
 
 // If-statement aanmaken. Als de username & password combinatie niet correct is.
