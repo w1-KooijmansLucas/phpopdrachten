@@ -37,3 +37,5 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
 echo "<pre>";
 var_dump($aJokes);
 echo "</pre>";
+
+//
