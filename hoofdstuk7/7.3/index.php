@@ -16,8 +16,16 @@ echo "<p> $query </p>";
 ?>
 
 <form method="get" action="index.php">
-    Zoekterm: <input type="text" id="search" name="search"> <button>Zoeken</button>
+    Zoekterm: <input type="text" id="search" name="search"> <input type="submit" value="Zoeken!" id="button" name="button">
+    <?php
+    if (isset($_GET["search"]))
+    {
+        $query = "SELECT * FROM joke WHERE joketext LIKE '%" . $_GET["search"] . "%'";
+        echo "<p> $query </p>";
+    }
+    ?>
 </form>
+
 
 <hr>
 
@@ -35,6 +43,14 @@ echo "<p> $query </p>";
         <th>
             Jokedate
         </th>
+        <?php
+                // Resultaten rij voor rij ophalen
+                while($row = $jokes->fetch(PDO::FETCH_ASSOC) )
+                {
+                    // Voor ieder joke een rij maken met daarin cellen met de bijhorende gegevens
+                    echo "<tr>" . "<td>".  $row["id"] . "</td> <td>" . $row["joketext"] . "</td> <td>" . $row["jokeclou"] . "</td> <td>" .  $row["jokedate"] . "</td> </tr>";
+                }
+        ?>
     </tr>
 </table>
 
